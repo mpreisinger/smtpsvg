@@ -49,6 +49,13 @@ namespace SMTPSvg
 		/// </summary>
 		public string BodyText { get; set; }
 
+        /// <summary>
+        /// Placeholder for old property.  Ignore the value.
+        /// Example:
+        /// Mailer.QMessage = true
+        /// </summary>
+        public Boolean QMessage { get; set; }
+
 		/// <summary>
 		/// The character set. By default the char set is US Ascii
 		/// 
